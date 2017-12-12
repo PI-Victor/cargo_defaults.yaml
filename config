@@ -1,0 +1,12 @@
+[cargo-new]
+name = "Victor Palade"
+email = "victor@cloudflavor.io"
+
+[build]
+jobs = 2
+target-dir="$HOME/projects/rust/pkg"
+
+[alias]
+b = "build"
+t = "test"
+r = "run"
